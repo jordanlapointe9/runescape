@@ -1,0 +1,64 @@
+/* 
+@author: Jordan Lapointe
+@title: Fichier CSS du site
+
+Polices :
+- Titres : 'Montserrat', sans-serif
+- Contenu : 'Lekton', sans-serif
+
+Couleurs :
+- Blanc : #fff
+- Gris foncé : #111111
+- Bleu : #004990
+*/
+
+
+
+/* ==================== Version Bureau ==================== */
+/* Général */
+body {
+	background-color: #111111;
+}
+
+img {
+	width: 100%;
+	user-select: none;
+}
+
+::selection {
+  color: #fff;
+  background: #004990;
+}
+
+.global {
+	margin: 0 auto;
+	height: auto;
+	background-color: #111111;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+main div {
+	max-width: 75vh;
+}
+
+/* Medias Queries */
+/* ==================== 1300 px et moins ==================== */
+@media screen and (max-width: 1300px) {
+
+}
+
+/* ==================== Version Tablette ==================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* ==================== Version Mobile ==================== */
+@media screen and (max-width: 767px) {
+
+}
